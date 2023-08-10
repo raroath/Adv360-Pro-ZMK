@@ -1,3 +1,9 @@
+macro_func_block: macro_func_block{
+compatible = "zmk,behavior-macro";
+label = "macro_func_block";
+#binding-cells = <0>;
+bindings = <&kp F>, <&kp U>, <&kp N>, <&kp C>, <&kp SPACE>, <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>, <&kp SPACE>, <&kp MINUS>, <&kp GREATER_THAN>, <&kp SPACE>, <&kp LEFT_BRACE>, <&kp RETURN>, <&kp RIGHT_BRACE>, <&kp UP>, <&kp RIGHT>, <&kp RIGHT>, <&kp RIGHT>, <&kp RIGHT>, <&kp RIGHT>, <&kp RIGHT>;
+};
 macro_if_block: macro_if_block{
 compatible = "zmk,behavior-macro";
 label = "macro_if_block";
@@ -33,10 +39,4 @@ compatible = "zmk,behavior-macro";
 label = "macro_brackets";
 #binding-cells = <0>;
 bindings = <&kp LBKT>, <&kp RBKT>, <&kp LEFT>;
-};
-macro_kinesis: macro_kinesis{
-compatible = "zmk,behavior-macro";
-label = "macro_kinesis";
-#binding-cells = <0>;
-bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
 };
