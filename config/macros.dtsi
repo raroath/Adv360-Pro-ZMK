@@ -8,7 +8,7 @@ macro_dash_left: macro_dash_left{
 compatible = "zmk,behavior-macro";
 label = "macro_dash_left";
 #binding-cells = <0>;
-bindings = <&kp A>, <&kp A>;
+bindings = <&kp S>, <&kp S>;
 };
 macro_right_dragon: macro_right_dragon{
 compatible = "zmk,behavior-macro";
