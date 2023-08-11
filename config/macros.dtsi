@@ -14,25 +14,25 @@ macro_right_dragon: macro_right_dragon{
 compatible = "zmk,behavior-macro";
 label = "macro_right_dragon";
 #binding-cells = <0>;
-bindings = <&kp F>, <&kp D>, <&kp D(F)>;
+bindings = <&kp F>, <&kp D>, <&kp D &kp F>;
 };
 macro_left_dragon: macro_left_dragon{
 compatible = "zmk,behavior-macro";
 label = "macro_left_dragon";
 #binding-cells = <0>;
-bindings = <&kp S>, <&kp D>, <&kp D(S)>;
+bindings = <&kp S>, <&kp D>, <&kp D &kp S>;
 };
 macro_left_qtr_cir: macro_left_qtr_cir{
 compatible = "zmk,behavior-macro";
 label = "macro_left_qtr_cir";
 #binding-cells = <0>;
-bindings = <&kp D>, <&kp D(S)>, <&kp S>;
+bindings = <&kp D>, <&kp D &kp S>, <&kp S>;
 };
 macro_right_qtr_cir: macro_right_qtr_cir{
 compatible = "zmk,behavior-macro";
 label = "macro_right_qtr_cir";
 #binding-cells = <0>;
-bindings = <&kp D>, <&kp D(F)>, <&kp F>;
+bindings = <&kp D>, <&kp D &kp F>, <&kp F>;
 };
 macro_func_block: macro_func_block{
 compatible = "zmk,behavior-macro";
