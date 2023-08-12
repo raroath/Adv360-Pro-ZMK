@@ -62,7 +62,7 @@ macro_right_dragon: macro_right_dragon{
 compatible = "zmk,behavior-macro";
 label = "macro_right_dragon";
 #binding-cells = <0>;
-bindings = <&kp F>, <&macro_press &kp D>, <&macro_press &kp F>, <&macro_release &kp D>, <&macro_release &kp F>;
+bindings = <&kp F>, <&kp D>, <&kp D &kp F>;
 };
 macro_left_dragon: macro_left_dragon{
 compatible = "zmk,behavior-macro";
