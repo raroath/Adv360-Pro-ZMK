@@ -26,7 +26,7 @@ macro_sa_ryu_right: macro_sa_ryu_right{
 compatible = "zmk,behavior-macro";
 label = "macro_sa_ryu_right";
 #binding-cells = <0>;
-bindings = <&kp D>, <&macro_press &kp D>, <&macro_press &kp F>, <&macro_release &kp D>, <&macro_release &kp F>, <&kp F>, <&kp D>, <&macro_press &kp D>, <&macro_press &kp F>, <&macro_release &kp D>, <&macro_release &kp F>, <&kp F>, <&macro_wait_time 500>, <&kp L>;
+bindings = <&macro_press &kp D>, <&macro_press &kp F>, <&macro_release &kp D>, <&macro_release &kp F>, <&macro_press &kp D>, <&macro_press &kp F>, <&macro_release &kp D>, <&macro_tap &kp L>, <&macro_release &kp F>;
 };
 macro_sa_ryu_left: macro_sa_ryu_left{
 compatible = "zmk,behavior-macro";
