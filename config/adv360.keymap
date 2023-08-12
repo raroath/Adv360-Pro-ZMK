@@ -89,11 +89,11 @@
 
         layer_street_fighter {
             bindings = <
- &kp EQUAL             &kp A                &kp W     &kp G                 &kp R              &kp X                   &none                                                                                     &none  &kp N6  &kp N7        &kp N8        &kp N9        &kp N0     &kp MINUS
-   &kp TAB             &kp Q   &macro_left_dragon     &kp E   &macro_right_dragon              &kp T                   &none                                                                                     &none   &kp Y   &kp U         &kp I         &kp O         &kp P      &kp BSLH
-   &kp ESC  &macro_dash_left                &kp S     &kp D                 &kp F  &macro_dash_right                   &none          &mo 1  &kp LEFT_CONTROL                  &kp RIGHT_CONTROL      &mo 1      &none   &kp H   &kp J         &kp K         &kp L  &kp NUMBER_6  &kp NUMBER_8
- &kp LSHFT             &kp Z  &macro_left_qtr_cir     &kp C  &macro_right_qtr_cir              &kp B                                             &kp LEFT_WIN                          &kp PG_UP                         &kp N   &kp M  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp RSHFT
-     &to 0         &kp GRAVE              &kp TAB  &kp LEFT             &kp RIGHT                               &kp LEFT_ALT  &kp BACKSPACE           &kp END                          &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP      &kp DOWN      &kp LBKT      &kp RBKT         &to 4
+ &kp EQUAL           &kp A                &kp W     &kp G                 &kp R   &kp X                      &none                                                                                        &none               &kp N6        &kp N7        &kp N8        &kp N9                &kp N0     &kp MINUS
+   &kp TAB           &kp Q   &macro_left_dragon     &kp E   &macro_right_dragon   &kp T                      &none                                                                                        &none   &macro_sa_jin_left         &kp U         &kp I         &kp O   &macro_sa_jin_right      &kp BSLH
+   &kp ESC  &macro_dr_left                &kp S     &kp D                 &kp F   &kp G                      &none   &kp LEFT_ALT  &kp LEFT_CONTROL                  &kp RIGHT_CONTROL      &mo 1         &none   &macro_sa_ryu_left         &kp J         &kp K         &kp L   &macro_sa_ryu_right  &kp NUMBER_8
+ &kp LSHFT           &kp Z  &macro_left_qtr_cir     &kp C  &macro_right_qtr_cir   &kp B                                                &kp LEFT_WIN                          &kp PG_UP                           &macro_sa_lash_left         &kp M  &kp NUMBER_1  &kp NUMBER_2  &macro_sa_lash_right     &kp RSHFT
+     &to 0       &kp GRAVE              &kp TAB  &kp LEFT             &kp RIGHT                    &macro_dr_right  &kp BACKSPACE           &kp END                          &kp PG_DN  &kp ENTER  &kp NUMBER_5                       &kp NUMBER_3  &kp NUMBER_4      &kp LBKT              &kp RBKT         &to 4
             >;
         };
 
