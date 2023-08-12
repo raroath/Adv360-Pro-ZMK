@@ -20,19 +20,19 @@ macro_left_dragon: macro_left_dragon{
 compatible = "zmk,behavior-macro";
 label = "macro_left_dragon";
 #binding-cells = <0>;
-bindings = <&kp S>, <&kp D>, <&kp D &kp S>;
+bindings = <&kp S>, <&macro_press &kp D>, <&macro_press &kp S>, <&macro_release &kp S>, <&macro_release &kp S>;
 };
 macro_left_qtr_cir: macro_left_qtr_cir{
 compatible = "zmk,behavior-macro";
 label = "macro_left_qtr_cir";
 #binding-cells = <0>;
-bindings = <&kp D>, <&kp D &kp S>, <&kp S>;
+bindings = <&kp D>, <&macro_press &kp D>, <&macro_press &kp S>, <&macro_release &kp D>, <&macro_release &kp S>, <&kp S>;
 };
 macro_right_qtr_cir: macro_right_qtr_cir{
 compatible = "zmk,behavior-macro";
 label = "macro_right_qtr_cir";
 #binding-cells = <0>;
-bindings = <&kp D>, <&kp D &kp F>, <&kp F>;
+bindings = <&kp D>, <&macro_press &kp D>, <&macro_press &kp F>, <&macro_release &kp D>, <&macro_release &kp F>, <&kp F>;
 };
 macro_func_block: macro_func_block{
 compatible = "zmk,behavior-macro";
