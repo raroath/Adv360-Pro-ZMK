@@ -1,8 +1,20 @@
+macro_dr_right: macro_dr_right{
+compatible = "zmk,behavior-macro";
+label = "macro_dr_right";
+#binding-cells = <0>;
+bindings = <&kp F>, <&macro_press &kp F>, <&macro_press &kp K>, <&macro_press &kp N1>, <&macro_release &kp F>, <&macro_release &kp K>, <&macro_release &kp N1>;
+};
+macro_dr_left: macro_dr_left{
+compatible = "zmk,behavior-macro";
+label = "macro_dr_left";
+#binding-cells = <0>;
+bindings = <&kp S>, <&macro_press &kp S>, <&macro_press &kp K>, <&macro_press &kp N1>, <&macro_release &kp S>, <&macro_release &kp K>, <&macro_release &kp N1>;
+};
 macro_sa_lash_right: macro_sa_lash_right{
 compatible = "zmk,behavior-macro";
 label = "macro_sa_lash_right";
 #binding-cells = <0>;
-bindings = <&kp D>, <&macro_press &kp D>, <&macro_press &kp S>, <&macro_release &kp D>, <&macro_release &kp S>, <&kp S>, <&kp D>, <&macro_press &kp D>, <&macro_press &kp S>, <&macro_release &kp D>, <&macro_release &kp S>, <&kp S>, <&kp N2;
+bindings = <&kp D>, <&macro_press &kp D>, <&macro_press &kp S>, <&macro_release &kp D>, <&macro_release &kp S>, <&kp S>, <&kp D>, <&macro_press &kp D>, <&macro_press &kp S>, <&macro_release &kp D>, <&macro_release &kp S>, <&kp S>, <&kp N2>;
 };
 macro_sa_lash_left: macro_sa_lash_left{
 compatible = "zmk,behavior-macro";
