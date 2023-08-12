@@ -44,7 +44,7 @@ macro_sa_jin_left: macro_sa_jin_left{
 compatible = "zmk,behavior-macro";
 label = "macro_sa_jin_left";
 #binding-cells = <0>;
-bindings = <&macro_press &kp D>, <&macro_press &kp F>, <&macro_release &kp D>, <&macro_release &kp FS>, <&macro_press &kp D>, <&macro_press &kp F>, <&macro_release &kp D>, <&macro_tap &kp N2>, <&macro_release &kp F>;
+bindings = <&macro_press &kp D>, <&macro_press &kp F>, <&macro_release &kp D>, <&macro_release &kp F>, <&macro_press &kp D>, <&macro_press &kp F>, <&macro_release &kp D>, <&macro_tap &kp N2>, <&macro_release &kp F>;
 };
 macro_dash_right: macro_dash_right{
 compatible = "zmk,behavior-macro";
