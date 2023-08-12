@@ -2,49 +2,49 @@ macro_dr_right: macro_dr_right{
 compatible = "zmk,behavior-macro";
 label = "macro_dr_right";
 #binding-cells = <0>;
-bindings = <&kp F>, <&macro_press &kp F>, <&macro_press &kp K>, <&macro_press &kp N1>, <&macro_release &kp F>, <&macro_release &kp K>, <&macro_release &kp N1>;
+bindings = <&macro_press &kp K>, <&macro_press &kp N1>, <&kp F>, <&kp F>, <&macro_release &kp K>, <&macro_release &kp N1>;
 };
 macro_dr_left: macro_dr_left{
 compatible = "zmk,behavior-macro";
 label = "macro_dr_left";
 #binding-cells = <0>;
-bindings = <&kp S>, <&macro_press &kp S>, <&macro_press &kp K>, <&macro_press &kp N1>, <&macro_release &kp S>, <&macro_release &kp K>, <&macro_release &kp N1>;
+bindings = <&macro_press &kp K>, <&macro_press &kp N1>, <&kp S>, <&kp S>, <&macro_release &kp K>, <&macro_release &kp N1>;
 };
 macro_sa_lash_right: macro_sa_lash_right{
 compatible = "zmk,behavior-macro";
 label = "macro_sa_lash_right";
 #binding-cells = <0>;
-bindings = <&kp D>, <&macro_press &kp D>, <&macro_press &kp S>, <&macro_release &kp D>, <&macro_release &kp S>, <&kp S>, <&kp D>, <&macro_press &kp D>, <&macro_press &kp S>, <&macro_release &kp D>, <&macro_release &kp S>, <&kp S>, <&kp N2>;
+bindings = <&kp D>, <&macro_press &kp D>, <&macro_press &kp S>, <&macro_release &kp D>, <&macro_release &kp S>, <&kp S>, <&kp D>, <&macro_press &kp D>, <&macro_press &kp S>, <&macro_release &kp D>, <&macro_release &kp S>, <&kp S>, <&macro_wait_time 100>, <&kp N2>;
 };
 macro_sa_lash_left: macro_sa_lash_left{
 compatible = "zmk,behavior-macro";
 label = "macro_sa_lash_left";
 #binding-cells = <0>;
-bindings = <&kp D>, <&macro_press &kp D>, <&macro_press &kp F>, <&macro_release &kp D>, <&macro_release &kp F>, <&kp F>, <&kp D>, <&macro_press &kp D>, <&macro_press &kp F>, <&macro_release &kp D>, <&macro_release &kp F>, <&kp F>, <&kp N2>;
+bindings = <&kp D>, <&macro_press &kp D>, <&macro_press &kp F>, <&macro_release &kp D>, <&macro_release &kp F>, <&kp F>, <&kp D>, <&macro_press &kp D>, <&macro_press &kp F>, <&macro_release &kp D>, <&macro_release &kp F>, <&kp F>, <&macro_wait_time 100>, <&kp N2>;
 };
 macro_sa_ryu_right: macro_sa_ryu_right{
 compatible = "zmk,behavior-macro";
 label = "macro_sa_ryu_right";
 #binding-cells = <0>;
-bindings = <&kp D>, <&macro_press &kp D>, <&macro_press &kp F>, <&macro_release &kp D>, <&macro_release &kp F>, <&kp F>, <&kp D>, <&macro_press &kp D>, <&macro_press &kp F>, <&macro_release &kp D>, <&macro_release &kp F>, <&kp F>, <&kp L>;
+bindings = <&kp D>, <&macro_press &kp D>, <&macro_press &kp F>, <&macro_release &kp D>, <&macro_release &kp F>, <&kp F>, <&kp D>, <&macro_press &kp D>, <&macro_press &kp F>, <&macro_release &kp D>, <&macro_release &kp F>, <&kp F>, <&macro_wait_time 100>, <&kp L>;
 };
 macro_sa_ryu_left: macro_sa_ryu_left{
 compatible = "zmk,behavior-macro";
 label = "macro_sa_ryu_left";
 #binding-cells = <0>;
-bindings = <&kp D>, <&macro_press &kp D>, <&macro_press &kp S>, <&macro_release &kp D>, <&macro_release &kp S>, <&kp S>, <&kp D>, <&macro_press &kp D>, <&macro_press &kp S>, <&macro_release &kp D>, <&macro_release &kp S>, <&kp S>, <&kp L>;
+bindings = <&kp D>, <&macro_press &kp D>, <&macro_press &kp S>, <&macro_release &kp D>, <&macro_release &kp S>, <&kp S>, <&kp D>, <&macro_press &kp D>, <&macro_press &kp S>, <&macro_release &kp D>, <&macro_release &kp S>, <&kp S>, <&macro_wait_time 100>, <&kp L>;
 };
 macro_sa_jin_right: macro_sa_jin_right{
 compatible = "zmk,behavior-macro";
 label = "macro_sa_jin_right";
 #binding-cells = <0>;
-bindings = <&kp D>, <&macro_press &kp D>, <&macro_press &kp F>, <&macro_release &kp D>, <&macro_release &kp F>, <&kp F>, <&kp D>, <&macro_press &kp D>, <&macro_press &kp F>, <&macro_release &kp D>, <&macro_release &kp F>, <&kp F>, <&kp N2>;
+bindings = <&kp D>, <&macro_press &kp D>, <&macro_press &kp F>, <&macro_release &kp D>, <&macro_release &kp F>, <&kp F>, <&kp D>, <&macro_press &kp D>, <&macro_press &kp F>, <&macro_release &kp D>, <&macro_release &kp F>, <&kp F>, <&macro_wait_time 100>, <&kp N2>;
 };
 macro_sa_jin_left: macro_sa_jin_left{
 compatible = "zmk,behavior-macro";
 label = "macro_sa_jin_left";
 #binding-cells = <0>;
-bindings = <&kp D>, <&macro_press &kp D>, <&macro_press &kp S>, <&macro_release &kp D>, <&macro_release &kp S>, <&kp S>, <&kp D>, <&macro_press &kp D>, <&macro_press &kp S>, <&macro_release &kp D>, <&macro_release &kp S>, <&kp S>, <&kp N2>;
+bindings = <&kp D>, <&macro_press &kp D>, <&macro_press &kp S>, <&macro_release &kp D>, <&macro_release &kp S>, <&kp S>, <&kp D>, <&macro_press &kp D>, <&macro_press &kp S>, <&macro_release &kp D>, <&macro_release &kp S>, <&kp S>, <&macro_wait_time 100>, <&kp N2>;
 };
 macro_dash_right: macro_dash_right{
 compatible = "zmk,behavior-macro";
@@ -68,7 +68,7 @@ macro_left_dragon: macro_left_dragon{
 compatible = "zmk,behavior-macro";
 label = "macro_left_dragon";
 #binding-cells = <0>;
-bindings = <&kp S>, <&macro_press &kp D>, <&macro_press &kp S>, <&macro_release &kp S>, <&macro_release &kp S>;
+bindings = <&kp S>, <&macro_press &kp D>, <&macro_press &kp S>, <&macro_release &kp D>, <&macro_release &kp S>;
 };
 macro_left_qtr_cir: macro_left_qtr_cir{
 compatible = "zmk,behavior-macro";
