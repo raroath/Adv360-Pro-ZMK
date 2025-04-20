@@ -55,7 +55,7 @@
         macro_if: macro_if {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp I &kp F &kp SPACE &kp LPAR &kp RPAR &kp SPACE &kp RBKT &kp RET &kp RET &kp RBRC &kp UP_ARROW &kp UP_ARROW>;
+            bindings = <&none &kp I &kp F &kp SPACE &kp LPAR &kp RPAR &kp SPACE &kp LEFT_BRACE &kp RET &kp RET &kp RBRC &kp UP_ARROW &kp UP_ARROW &kp RIGHT &kp RIGHT_ARROW &kp RIGHT_ARROW>;
             label = "MACRO_IF";
         };
     };
